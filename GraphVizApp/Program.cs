@@ -8,11 +8,11 @@ namespace GraphVizApp
         static void Main(string[] args)
         {
             
-            Node nod1 = new Node("jeden");
+            Node nod1 = new Node("node_one");
 
             nod1.AddStyle("color", "red");
 
-            Node nod2 = new Node("dwa");
+            Node nod2 = new Node("node_two");
 
             nod2.AddStyle("color", "blue");
             nod2.AddStyle("shape", "circle");
@@ -22,7 +22,6 @@ namespace GraphVizApp
 
             Graph gr = new Graph();
             gr.AddNode(nod1);
-            //gr.AddEdge(ed1);
 
             ed1.AddStyle("style", "solid");
             gr.AddEdge(ed1);

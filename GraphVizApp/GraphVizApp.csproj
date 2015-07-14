@@ -33,9 +33,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="GraphVizWrapper">
-      <HintPath>..\GraphVizWrapper\bin\Release\GraphVizWrapper.dll</HintPath>
+      <HintPath>..\GraphVizWrapper\bin\Debug\GraphVizWrapper.dll</HintPath>
     </Reference>
     <Reference Include="System" />
   </ItemGroup>
